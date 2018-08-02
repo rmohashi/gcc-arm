@@ -87,6 +87,9 @@ timer_init:
 
 main:
   bl timer_init   @Initialize interrupts and timer 0
-  bl c_entry
+  bl print_main_message
 stop:
   b stop
+
+linhaA:
+  .space 52
