@@ -3,5 +3,6 @@
 !**/*.s
 !**/*.c
 !**/*.ld
+!**/*.sh
 !item-2-2.s
 !.gitignore
