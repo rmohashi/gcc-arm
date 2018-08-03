@@ -9,4 +9,6 @@ SECTIONS
   stack_top = .;
   . = . + 0x1000;
   irq_stack_top = .;
+  . = . + 0x1000;
+  b_stack_top = .;
 }
